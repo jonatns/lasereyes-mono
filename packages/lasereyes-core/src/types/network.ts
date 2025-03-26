@@ -60,6 +60,7 @@ export enum BaseNetwork {
   TESTNET = 'testnet',
   TESTNET4 = 'testnet4',
   REGTEST = 'regtest',
+  OYLNET = 'oylnet',
   FRACTAL_MAINNET = FractalNetwork.MAINNET,
   FRACTAL_TESTNET = FractalNetwork.TESTNET,
 }

@@ -219,6 +219,7 @@ export default class OylProvider extends WalletProvider {
   }
 
   async switchNetwork(network: NetworkType): Promise<void> {
-    return await this.library.switchNetwork(network)
+    await this.library.switchNetwork(network)
+    this.$network.set(network)
   }
 }
